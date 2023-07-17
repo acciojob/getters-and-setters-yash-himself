@@ -1,13 +1,13 @@
 //complete this code
 class Person {
-	let name;
-	let age ;
+	 name;
+	age ;
 	constructor(name,age){
 		this.name = name;
 		this.age = age;
 	}
-	get name(){ return this.name}
-	set age(A){this.age = A;}
+	getname(){ return this.name}
+	setage(A){this.age = A;}
 }
 
 class Student extends Person {
