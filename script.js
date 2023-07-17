@@ -6,8 +6,8 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	getname(){ return this.name}
-	setage(A){this.age = A;}
+	_name(){ return this.name}
+	_age(A){this.age = A;}
 }
 
 class Student extends Person {
